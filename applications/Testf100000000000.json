@@ -30,30 +30,20 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "1",
-    "Single Size Dataset": "256",
+    "Total Requested Amount": "1TiB",
+    "Single Size Dataset": "256GiB",
     "Replicas": 4,
-    "Weekly Allocation": "1"
+    "Weekly Allocation": "1TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2024-03-28 03:56:51.954346938 UTC",
-    "Validated By": "Destore2023",
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
     "Active": true,
     "Updated At": "2024-03-28 03:56:51.954350243 UTC",
-    "Active Request ID": "fa655b63-2c3b-4f42-b139-334961033294",
+    "Active Request ID": "",
     "On Chain Address": "Testf100000000000",
     "Multisig Address": "false"
   },
-  "Allocation Requests": [
-    {
-      "ID": "fa655b63-2c3b-4f42-b139-334961033294",
-      "Request Type": "First",
-      "Created At": "2024-03-28 03:56:51.954351884 UTC",
-      "Updated At": "2024-03-28 03:56:51.954352507 UTC",
-      "Active": true,
-      "Allocation Amount": "1",
-      "Signers": []
-    }
-  ]
+  "Allocation Requests": []
 }
