@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f1l2rbo2gqizerr2qmh7gfl3cvsfw4azxdrnkf42i",
+  "Issue Number": "3",
+  "Client": {
+    "Name": "Anyi Data",
+    "Region": "China",
+    "Industry": "IT & Technology Services",
+    "Website": "https://www.anyidata.com/",
+    "Social Media": "Brady",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Project Id": "2",
+    "Brief history of your project and organization": "Anyiyun is a well-established Internet infrastructure service provider founded in 2002. More than 500,000 websites have been running stably on the platform. 10 Million Domain Names are registered and 1 million users complete transactions through the platform. Anyiyun has been working hard to create a safe, fast, stable one-stop Internet infrastructure services platform!",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Data from blockchain medical big data platform-electronic film cloud service center.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "No response",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://1drv.ms/v/s!AqgpR6TyNwdza52UBMGiaRN4WDk?e=ZaYBtQ",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1.f02834511 HongKong\r\n2.f0508988 Korea\r\n3.f0110944 China\r\n4.f0397428 Japan\r\n5.f01112335 China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1TiB",
+    "Single Size Dataset": "256GiB",
+    "Replicas": 4,
+    "Weekly Allocation": "1TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-04-11 10:48:19.382295579 UTC",
+    "Validated By": "Destore2023",
+    "Active": true,
+    "Updated At": "2024-04-11 10:49:11.516925631 UTC",
+    "Active Request ID": "c4a8925a-b4d8-4885-8fc3-b8f1eb8f4b1a",
+    "On Chain Address": "f1l2rbo2gqizerr2qmh7gfl3cvsfw4azxdrnkf42i",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "c4a8925a-b4d8-4885-8fc3-b8f1eb8f4b1a",
+      "Request Type": "First",
+      "Created At": "2024-04-11 10:48:19.382300502 UTC",
+      "Updated At": "2024-04-11 10:48:19.382301179 UTC",
+      "Active": false,
+      "Allocation Amount": "1TiB",
+      "Signers": [
+        {
+          "Github Username": "Destore2023",
+          "Signing Address": "f1rppfznglfb7uyn3k6sfzeh47yq54ptvia5ixwsq",
+          "Created At": "2024-04-11 10:49:08.424000000 UTC",
+          "Message CID": "bafy2bzacebqnx54xx7op3qv2jw3ojirvwz6gwyw5iah4amiejcfprc6xau42w"
+        }
+      ]
+    }
+  ]
+}
