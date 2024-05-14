@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "/",
     "Brief history of your project and organization": "We're a individual group of web 3. We wanna deeply experience the functionality of the filecoin ecosystem by storing real data.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "The End of Term Web Archive (EOT) captures and saves U.S. Government websites at the end of presidential administrations. The EOT has thus far preserved websites from administration changes in 2008, 2012, 2016, and 2020. Data from these web crawls have been made openly available in several formats in this dataset.",
@@ -36,15 +35,25 @@
     "Weekly Allocation": "256TiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2024-05-14 13:33:52.602721075 UTC",
+    "Validated By": "Destore2023",
     "Active": true,
-    "Updated At": "2024-05-09 09:39:55.988854944 UTC",
-    "Active Request ID": "",
+    "Updated At": "2024-05-14 13:33:52.602726398 UTC",
+    "Active Request ID": "c6191442-36fc-43ef-8f99-459ce0a81663",
     "On Chain Address": "f1dhjmvrgazw2njbov6qprzyh7aawhaponpsxmwbi",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "c6191442-36fc-43ef-8f99-459ce0a81663",
+      "Request Type": "First",
+      "Created At": "2024-05-14 13:33:52.602728480 UTC",
+      "Updated At": "2024-05-14 13:33:52.602729485 UTC",
+      "Active": true,
+      "Allocation Amount": "512TiB",
+      "Signers": []
+    }
+  ]
 }
