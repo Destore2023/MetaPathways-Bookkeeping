@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1dzwgjj4dn2e6yvek6pxkfywh6v4elxstfhcw2di",
+  "Issue Number": "16",
+  "Client": {
+    "Name": "NOAA",
+    "Region": "United States",
+    "Industry": "Environment",
+    "Website": "https://www.climate.gov/",
+    "Social Media": "pitar",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "NOAA Climate.gov provides timely and authoritative information about climate.  We promote public understanding of climate science and climate-related events through videos, stories, images, and data visualizations; we make common data products and services easy to access and use; and we provide tools and resources that help people make informed decisions about climate risks, vulnerability, and resilience.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "NOAA has generated a multi-decadal reanalysis and reforecast data set to accompany the next-generation version of its ensemble prediction system, the Global Ensemble Forecast System, version 12 (GEFSv12).",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We have some servers in HongKong for it. Lotus is the technology we use on servers for data preparing. Lotus can make data into car files. After we find sps, we transfer these data to them online/ offline.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://noaa-gefs-retrospective/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01955030 Zhejiang\r\nf02029743 Singapore\r\nf02181152 Sichuan\r\nf02834511 HongKong\r\nf02019788 HongKong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "512TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-08-28 15:46:34.222383760 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1dzwgjj4dn2e6yvek6pxkfywh6v4elxstfhcw2di",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
