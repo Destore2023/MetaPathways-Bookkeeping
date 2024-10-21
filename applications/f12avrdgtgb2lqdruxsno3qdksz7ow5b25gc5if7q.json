@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f12avrdgtgb2lqdruxsno3qdksz7ow5b25gc5if7q",
+  "Issue Number": "18",
+  "Client": {
+    "Name": "National Renewable Energy Laboratory",
+    "Region": "United States",
+    "Industry": "Environment",
+    "Website": "https://www.nrel.gov/buildings/end-use-load-profiles.html",
+    "Social Media": "Marcus.Bianchi@nrel.gov",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "From breakthroughs in fundamental science to new clean technologies to integrated energy systems that power our lives, NREL researchers are transforming the way the nation and the world use energy.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The U.S. Department of Energy (DOE) funded a three-year project, End-Use Load Profiles for the U.S. Building Stock, that culminated in this publicly available dataset of calibrated and validated 15-minute resolution load profiles for all major residential and commercial building types and end uses, across all climate regions in the United States. These EULPs were created by calibrating the ResStock and ComStock physics-based building stock models using many different measured datasets, as described here. This dataset includes load profiles for both the baseline building stock and the building stock with various energy efficiency, electrification, and demand flexibility upgrades applied.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Tool: servers, lotus\r\nLotus is the primary tool we use to transform data. We have 3 servers to support us dealing with dataset. We also support transfer data to sps online/offline.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://oedi-data-lake/nrel-pds-building-stock/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03161261 NewYork\r\nf03136895 Virginia\r\nf03087446 Los Angeles\r\nf03157902 Singapore\r\nf03189917 Virginia",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "216TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "256TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-10-21 05:22:35.505195495 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f12avrdgtgb2lqdruxsno3qdksz7ow5b25gc5if7q",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
