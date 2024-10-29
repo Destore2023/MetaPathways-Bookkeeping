@@ -38,9 +38,9 @@
     "State": "Granted",
     "Validated At": "2024-08-17 02:02:47.612177401 UTC",
     "Validated By": "Destore2023",
-    "Active": true,
-    "Updated At": "2024-08-17 02:03:28.258777980 UTC",
-    "Active Request ID": "3ab5c151-ac7c-44a8-a83b-f3da73e3c051",
+    "Active": false,
+    "Updated At": "2024-10-29 11:00:21.486653870 UTC",
+    "Active Request ID": "",
     "On Chain Address": "f16lkoer47de5r46ae2jddriacufmflpoml4vmmhy",
     "Multisig Address": "false",
     "edited": false
