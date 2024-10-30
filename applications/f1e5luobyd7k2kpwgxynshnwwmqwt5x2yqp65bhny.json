@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1e5luobyd7k2kpwgxynshnwwmqwt5x2yqp65bhny",
+  "Issue Number": "21",
+  "Client": {
+    "Name": "National Renewable Energy Laboratory",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.nrel.gov/",
+    "Social Media": "@NREL",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The U.S. Department of Energy (DOE) funded a three-year project, End-Use Load Profiles for the U.S. Building Stock, that culminated in this publicly available dataset of calibrated and validated 15-minute resolution load profiles for all major residential and commercial building types and end uses, across all climate regions in the United States. These EULPs were created by calibrating the ResStock and ComStock physics-based building stock models using many different measured datasets, as described here.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "This dataset includes load profiles for both the baseline building stock and the building stock with various energy efficiency, electrification, and demand flexibility upgrades applied.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We use lotus to prepare data. This is from filecoin network and we have learned it.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://oedi-data-lake/nrel-pds-building-stock/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03136895, US\r\nf03224648, Singapore\r\nf03224828, England\r\nf03087446, US\r\nf03157902, Singapore",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "198TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-10-30 11:28:31.289925852 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1e5luobyd7k2kpwgxynshnwwmqwt5x2yqp65bhny",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
