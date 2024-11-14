@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1tc4d6xemnvkp5cskj6zahqbnomvohv622dni4li",
+  "Issue Number": "29",
+  "Client": {
+    "Name": "Space Telescope Science Institute.",
+    "Region": "United States",
+    "Industry": "Not-for-Profit",
+    "Website": "http://astroquery.readthedocs.io/en/latest/mast/mast.html",
+    "Social Media": "N/A",
+    "Social Media Type": "Other",
+    "Role": "Storage provider filling out application on behalf of the data owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "We are topblocks team - https://www.topblocks.io\r\n\r\nWe are leader sp on https://github.com/filecoin-project/filecoin-plus-large-datasets/issues/1248.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Transiting Exoplanet Survey Satellite (TESS) is a multi-year survey that will discover exoplanets in orbit around bright stars across the entire sky using high-precision photometry. The survey will also enable a wide variety of stellar astrophysics, solar system science, and extragalactic variability studies. More information about TESS is available at MAST and the TESS Science Support Center.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "lotus is our mainly way to prepare data.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://stpubdata/tess/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Sporadic",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01531188 Hong Kong(CN)\r\nf03238633 Singapore\r\nf03241413 GuangDong(CN)\r\nf03241759 GuangDong(CN)\r\nf02201190 US\r\nf01969779 US",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "3PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "500TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-11-14 09:06:46.478953277 UTC",
+    "Validated By": "Destore2023",
+    "Active": true,
+    "Updated At": "2024-11-14 09:08:06.993373302 UTC",
+    "Active Request ID": "d0185de7-8998-40cc-a91b-0ee99c86d5ad",
+    "On Chain Address": "f1tc4d6xemnvkp5cskj6zahqbnomvohv622dni4li",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "d0185de7-8998-40cc-a91b-0ee99c86d5ad",
+      "Request Type": "First",
+      "Created At": "2024-11-14 09:06:46.478959493 UTC",
+      "Updated At": "2024-11-14 09:06:46.478960315 UTC",
+      "Active": false,
+      "Allocation Amount": "512TiB",
+      "Signers": [
+        {
+          "Github Username": "Destore2023",
+          "Signing Address": "f1rppfznglfb7uyn3k6sfzeh47yq54ptvia5ixwsq",
+          "Created At": "2024-11-14 09:08:04.639000000 UTC",
+          "Message CID": "bafy2bzacebkmisl4nxl7fo7hwkpjts5nxwc3uuig7lsbgdkx4lanopajhrekg"
+        }
+      ]
+    }
+  ]
+}
