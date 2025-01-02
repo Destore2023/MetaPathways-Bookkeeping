@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1zynp7am57xjupvl3b4wmz5aajcuuwnihdq6ifna",
+  "Issue Number": "37",
+  "Client": {
+    "Name": "Sichuan ipixel technology",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "www.ipixels.cn",
+    "Social Media": "Sergio",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Sichuan ipixel media company is an innovative media company specializing in video production and distribution. We are committed to providing our clients with high quality video content creation, including corporate videos, branding videos, event recordings, short video production and many other video services. Our team consists of experienced directors, videographers, editors and post-production specialists, who are able to customize creative solutions according to our clients' needs and help them effectively communicate their brand stories and core values.\r\n\r\nIn the digital era, video has become one of the most influential communication media. Sichuan ipixel media company makes full use of advanced filming equipment and professional production technology to ensure that each work can achieve the best visual effect and emotional resonance. We have established good cooperative relationships with a number of enterprises, organizations and individual clients, and have won wide recognition in the market for our outstanding creativity and professional services.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Multimedia video materials and artwork",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "Our data will be prepared by lotus because our technicist have learned about it.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Data sample https://1drv.ms/f/s!AkmNN3TMsp3ScySR6PIB9Dcy9IE?e=EkfNRJ",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f03099987, Thailand\r\n2. f02828242, HK\r\n3. f01660795, Guangdong\r\n4. f02816097, HK\r\n5. f03242023, Shanghai",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "492TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-01-02 03:13:25.104623403 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1zynp7am57xjupvl3b4wmz5aajcuuwnihdq6ifna",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
