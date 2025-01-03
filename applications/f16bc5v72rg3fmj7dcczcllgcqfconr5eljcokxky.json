@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f16bc5v72rg3fmj7dcczcllgcqfconr5eljcokxky",
+  "Issue Number": "41",
+  "Client": {
+    "Name": "Shanghai YJ",
+    "Region": "China",
+    "Industry": "IT & Technology Services",
+    "Website": "www.hopesum.com",
+    "Social Media": "Florence",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Shanghai YJ Digital Marketing is an innovative company specializing in the field of digital marketing, dedicated to helping our clients improve their brand influence and market competitiveness in the rapidly changing market environment. We provide comprehensive digital marketing solutions, including Search Engine Optimization (SEO), social media marketing, content marketing, email marketing and data analytics services.\r\n\r\nOur team consists of a group of experienced digital marketing professionals who understand market dynamics and consumer behavior, and are able to develop tailor-made marketing strategies based on our clients' unique needs. Through accurate data analysis and market insights, we help our clients effectively reach their target audiences and increase brand awareness and customer conversion rates.\r\n\r\nIn the digital era, YJ always keeps a keen eye on emerging technologies and trends, and utilizes advanced tools and platforms to provide innovative marketing solutions for our clients. We have established good relationships with clients across multiple industries and have earned their trust and support with our quality services and outstanding results.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Company creative resources: such as videos, images, designs and other multimedia content. These creative resources are at the heart of digital marketing campaigns, and storing them on the Filecoin network ensures their security and accessibility, making them easy for teams to share and use.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "Our company choose boost to prepare data, and package data into car files.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://1drv.ms/u/s!AinAgX1w7m7Aa69AfV4-DqCUzxg?e=mabCwh",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, IPFS, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03099987 TH\r\nf03251993 NB\r\nf02828242 HK\r\nf01660795 GD\r\nf03156722 HK",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "502TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-01-03 11:44:17.871552971 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f16bc5v72rg3fmj7dcczcllgcqfconr5eljcokxky",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
