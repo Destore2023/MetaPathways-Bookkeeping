@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1mri5agk3blkfofobuuoitmww7vpqq7kvkn4jk7y",
+  "Issue Number": "50",
+  "Client": {
+    "Name": "Illumina, Inc.",
+    "Region": "China",
+    "Industry": "Life Science / Healthcare",
+    "Website": "www.illumina.com.cn",
+    "Social Media": "Florida",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "At Illumina, our goal is to apply innovative technologies to the analysis of genetic variation and function, making studies possible that were not even imaginable just a few years ago. It is mission critical for us to deliver innovative, flexible, and scalable solutions to meet the needs of our customers. As a global company that places high value on collaborative interactions, rapid delivery of solutions, and providing the highest level of quality, we strive to meet this challenge. Illumina innovative sequencing and array technologies are fueling groundbreaking advancements in life science research, translational and consumer genomics, and molecular diagnostics.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "This dataset contains alignment files and short nucleotide, copy number (CNV), repeat expansion (STR), structural variant (SV) and other variant call files from the 1000 Genomes Project Phase 3 dataset (n=3202) using Illumina DRAGEN v3.5.7b, v3.7.6, v4.0.3, and v4.2.7 software.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We use boost to prepare data. We downloaded the data to our storage servers for this project. For those sps with good internet bandwidth, we will provide the download link. For sps with poor network bandwidth, we will use disk transfers. We are still using the options of an optimized lotus packaging solution and are considering whether to go for a transition to boost.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://1000genomes-dragen/\ns3://1000genomes-dragen-3.7.6/\ns3://1000genomes-dragen-v3.7.6/\ns3://1000genomes-dragen-v4.0.3/\ns3://1000genomes-dragen-v4-2-7/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03099981, Beijing\nf03233333, Jiangmen\nf03321072, Chengdu\nf01313, Hongkong\nf03322378, Shanghai",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "12PiB",
+    "Single Size Dataset": "1223TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1024TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-02-20 10:34:25.744079365 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1mri5agk3blkfofobuuoitmww7vpqq7kvkn4jk7y",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
