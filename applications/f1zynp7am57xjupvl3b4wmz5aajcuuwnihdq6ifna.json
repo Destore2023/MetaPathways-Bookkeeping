@@ -12,7 +12,7 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Brief history of your project and organization": "Sichuan ipixel media company is an innovative media company specializing in video production and distribution. We are committed to providing our clients with high quality video content creation, including corporate videos, branding videos, event recordings, short video production and many other video services. Our team consists of experienced directors, videographers, editors and post-production specialists, who are able to customize creative solutions according to our clients' needs and help them effectively communicate their brand stories and core values.\r\n\r\nIn the digital era, video has become one of the most influential communication media. Sichuan ipixel media company makes full use of advanced filming equipment and professional production technology to ensure that each work can achieve the best visual effect and emotional resonance. We have established good cooperative relationships with a number of enterprises, organizations and individual clients, and have won wide recognition in the market for our outstanding creativity and professional services.",
+    "Brief history of your project and organization": "Sichuan ipixel media company is an innovative media company specializing in video production and distribution. We are committed to providing our clients with high quality video content creation, including corporate videos, branding videos, event recordings, short video production and many other video services. Our team consists of experienced directors, videographers, editors and post-production specialists, who are able to customize creative solutions according to our clients' needs and help them effectively communicate their brand stories and core values.\n\nIn the digital era, video has become one of the most influential communication media. Sichuan ipixel media company makes full use of advanced filming equipment and professional production technology to ensure that each work can achieve the best visual effect and emotional resonance. We have established good cooperative relationships with a number of enterprises, organizations and individual clients, and have won wide recognition in the market for our outstanding creativity and professional services.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Multimedia video materials and artwork",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
@@ -23,8 +23,8 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f03099987, Thailand\r\n2. f02828242, HK\r\n3. f01660795, Guangdong\r\n4. f02816097, HK\r\n5. f03242023, Shanghai",
-    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "~~f03099987, Thailand~~\n~~f01660795, Guangdong~~\n~~f02816097, HK~~\n~~f03242023, Shanghai~~",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": ""
   },
   "Datacap": {
     "Type": "ldn-v3",
@@ -43,7 +43,7 @@
     "Active Request ID": "df361766-606f-4f90-b285-96ec4c4c6c12",
     "On Chain Address": "f1zynp7am57xjupvl3b4wmz5aajcuuwnihdq6ifna",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
