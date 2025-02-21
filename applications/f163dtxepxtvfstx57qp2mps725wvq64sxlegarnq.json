@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f163dtxepxtvfstx57qp2mps725wvq64sxlegarnq",
+  "Issue Number": "53",
+  "Client": {
+    "Name": "Chengdu Gouying Technology Co., Ltd.",
+    "Region": "China",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.qcc.com/firm/0fb976385f0828c4153a896221d430a9.html",
+    "Social Media": "Gretch",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Gouying Technology is a high-tech enterprise focusing on cutting-edge technology and innovative solutions, dedicated to promoting the digital transformation of various industries through advanced technology. We have a team of industry experts and technical elites focusing on the research, development and application of artificial intelligence, big data analysis, cloud computing and blockchain.\nSince its establishment, Gouying Technology has always insisted on being customer-centric, deeply understanding customers' needs and providing tailor-made solutions. Our products cover intelligent data processing, cloud storage services, AI-driven business analysis tools, etc., aiming to help enterprises improve operational efficiency, reduce costs and optimize decision-making.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Artificial Intelligence Training Data and data of Big Data Analytics",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We have self-developed technology to transform datasets into car files. Then we use boost for deal making.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://1drv.ms/u/s!AsaFTkkXOx2Ja6LSD1saO97ioWI?e=rx8MdN",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Weekly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02851143, Luzhou\nf03099987, Bangkok\nf03321072, Sichuan\nf0671982, HongKong\nf01820802, Guangdong",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2PiB",
+    "Single Size Dataset": "205TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "200TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-02-21 10:01:41.558791314 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f163dtxepxtvfstx57qp2mps725wvq64sxlegarnq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
