@@ -17,13 +17,13 @@
     "Describe the data being stored onto Filecoin": "Public SRA data in the original (user submitted) format from select high value and newly-released studies as well as all public-access SRA formatted ETL+BQS data. Also included is all SRA metadata that can be leveraged for attribute-based data discovery.",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
     "How do you plan to prepare the dataset": "lotus is our mainly way to prepare data.",
-    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://sra-pub-src-1/\r\naws s3 ls --no-sign-request s3://sra-pub-src-2/\r\naws s3 ls --no-sign-request s3://sra-pub-run-odp/\r\naws s3 ls --no-sign-request s3://sra-pub-metadata-us-east-1/sra/metadata/",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://sra-pub-src-1/\naws s3 ls --no-sign-request s3://sra-pub-src-2/\naws s3 ls --no-sign-request s3://sra-pub-run-odp/\naws s3 ls --no-sign-request s3://sra-pub-metadata-us-east-1/sra/metadata/",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
     "What is the expected retrieval frequency for this data": "Daily",
     "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03216485/Sichuan\r\nf03214920/HongKong\r\nf03228358/Zhejiang\r\nf01975299/Guangdong\r\nf01084941/Hong Kong",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03228358/Zhejiang(Deactivated)\nf02816097 HongKong\nf01660795 Guangdong\nf03100004 Guangdong(Deactivated)\nf03100009 Guangdong(Deactivated)\nf01084413 Singapore\nf03066836 Changsha(Deactivated)\nf03233966 Zhejiang(Deactivated)\nf03231666 Sichuan\nf01431043 Hongkong(Deactivated)\nf02851143 Luzhou\nf03099981 HongKong\nf03251993 Ningbo\nf03099987 Bangkok\nf03325538 Hong kong\nf01313 Hong kong",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -43,7 +43,7 @@
     "Active Request ID": "b1109f5a-2cd0-473a-a78b-e9c01ddc655e",
     "On Chain Address": "f1mp4xe27l46wl5vq4qdmedj5k5qm7twsewbgkgvy",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
