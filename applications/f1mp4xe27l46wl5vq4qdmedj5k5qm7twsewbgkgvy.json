@@ -35,11 +35,11 @@
     "Weekly Allocation": "512TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-04-10 15:24:57.740578968 UTC",
+    "State": "Granted",
+    "Validated At": "2025-04-10 15:26:41.165125158 UTC",
     "Validated By": "Destore2023",
     "Active": true,
-    "Updated At": "2025-04-10 15:24:57.740582551 UTC",
+    "Updated At": "2025-04-10 15:26:41.165119806 UTC",
     "Active Request ID": "1b0b18b5-3405-491b-9fc7-a8a8db715ebc",
     "On Chain Address": "f1mp4xe27l46wl5vq4qdmedj5k5qm7twsewbgkgvy",
     "Multisig Address": "false",
@@ -115,9 +115,16 @@
       "Request Type": "Refill",
       "Created At": "2025-04-10 15:24:57.740590491 UTC",
       "Updated At": "2025-04-10 15:24:57.740591363 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "2105432825795707B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Destore2023",
+          "Signing Address": "f1rppfznglfb7uyn3k6sfzeh47yq54ptvia5ixwsq",
+          "Created At": "2025-04-10 15:26:39.467000000 UTC",
+          "Message CID": "bafy2bzacecl6qbgchgoltvghfntoyzci5nxeydbugkaweamaqrg25e2j3ckcy"
+        }
+      ]
     }
   ]
 }
