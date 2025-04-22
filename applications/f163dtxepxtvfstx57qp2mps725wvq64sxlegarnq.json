@@ -35,7 +35,7 @@
     "Weekly Allocation": "200TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-04-09 04:13:04.249817295 UTC",
     "Validated By": "Destore2023",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "0a8ce8e9-5a00-40a1-952a-ab54d1dfd4cd",
     "On Chain Address": "f163dtxepxtvfstx57qp2mps725wvq64sxlegarnq",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
