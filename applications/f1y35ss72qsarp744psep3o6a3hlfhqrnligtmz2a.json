@@ -15,7 +15,7 @@
     "Brief history of your project and organization": "YOTI is a dynamic digital hub revolutionizing how gamers discover, access, and engage with interactive entertainment. As a premier platform for game information aggregation, curated resource downloads, and player community building, we empower gamers worldwide to enhance their play experiences through comprehensive tools and trusted content.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "User asset data, game source, UGC comment and Log.",
-    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
     "How do you plan to prepare the dataset": "We have rented some servers for preparing data by using boost. And two technicists will be responsible for it. They have turned these data into car files, and the files will be sent to sps after we finish applying datacap.",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Data sample (csv)\nhttps://1drv.ms/u/c/20929d919b2f672c/EaB3ER3xmcNAoPhk6NgVqUcBQwsxeppbtzHdBOHtm5J9ug?",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
