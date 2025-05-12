@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1y35ss72qsarp744psep3o6a3hlfhqrnligtmz2a",
+  "Issue Number": "74",
+  "Client": {
+    "Name": "Yoti",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.yoti.cn/",
+    "Social Media": "Elaine",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "YOTI is a dynamic digital hub revolutionizing how gamers discover, access, and engage with interactive entertainment. As a premier platform for game information aggregation, curated resource downloads, and player community building, we empower gamers worldwide to enhance their play experiences through comprehensive tools and trusted content.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "User asset data, game source, UGC comment and Log.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We have rented some servers for preparing data by using boost. And two technicists will be responsible for it. They have turned these data into car files, and the files will be sent to sps after we finish applying datacap.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "Data sample (csv)\nhttps://1drv.ms/u/c/20929d919b2f672c/EaB3ER3xmcNAoPhk6NgVqUcBQwsxeppbtzHdBOHtm5J9ug?",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02029742, Sichuan\nf03233333, Jiangmen\nf03526300, Sichuan\nf03499694, HK\nf03260592, Ziyang",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "982TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-05-12 06:44:36.368429436 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1y35ss72qsarp744psep3o6a3hlfhqrnligtmz2a",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
