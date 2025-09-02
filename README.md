@@ -3,7 +3,7 @@ For Filecoin Allocator
 Take record of all the DataCap allocated to client   **updated 2025/9/1**
 - **Pathway description**         
 
-The MetaPathways-Bookkeeping allocator operates as a structured mechanism for managing Filecoin DataCap (Datacap) allocations, specifically focused on processing and validating Large Dataset Notary (LDN) v3 applications for the Fil+ ecosystem. It supports clients across diverse industries—including digital marketing (e.g., Shanghai YJ Digital Marketing), media production (e.g., Sichuan ipixel media company), and other enterprise use cases—to onboard datasets onto the Filecoin network.
+The MetaPathways-Bookkeeping allocator operates as a structured mechanism for managing Filecoin DataCap (Datacap) allocations, specifically focused on processing for the Fil+ ecosystem. It supports clients across diverse industries—including digital marketing, and other enterprise use cases—to onboard datasets onto the Filecoin network.
 
 - **Contact information**
 
