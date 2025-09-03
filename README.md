@@ -18,8 +18,8 @@ Allocation will be 1st-5%,2nd-10%, 3rd-15%, 4th-20%, 5th-25%
 On-Chain Requirements: Clients must provide a unique, existing Filecoin on-chain address  for Datacap delivery.
 
 - **Risk mitigation approach**
-1. Tracks total requested Datacap per application and validates alignment with dataset size and replica needs (e.g., 10PiB total for a 1.56PiB dataset with 6 replicas).
-2. Requires clients to pre-list at least 3-5 unique SP IDs and their locations (e.g., f01234 in Singapore , f06789 in Hongkong) in applications, enabling future verification against Fil+’s ≤30% per SP rule.
+1. Tracks total requested Datacap per application and validates alignment with dataset size and ≥2 replica needs 
+2. Requires clients to pre-list at least 2 unique SP IDs and their locations (e.g., f01234 in Singapore , f06789 in Hongkong) in applications, enabling future verification against Fil+’s ≤30% per SP rule.
 3. Mandates written confirmation in applications that clients will engage ≥3 SPs, with non-compliance risking active status revocation  (tracked via [github bookkeeping](https://github.com/Destore2023/2024_DataCap_Bookkeeping)).
 4. Validates on-chain addresses to ensure they exist on the Filecoin network (per application template instructions) and are not reused across multiple applications.
 5. Verifies dataset legitimacy via sample submissions and source transparency ("My Own Storage Infra").
